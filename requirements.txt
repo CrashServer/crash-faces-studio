@@ -1,0 +1,32 @@
+# Crash/Faces Studio Requirements
+# 
+# This application uses only Python standard library modules
+# No additional packages need to be installed via pip
+#
+# Standard library modules used:
+# - tkinter (GUI framework)
+# - os (file operations)  
+# - subprocess (external process execution)
+# - threading (background tasks)
+# - sys (system operations)
+# - pathlib (path handling)
+# - time (timing operations)
+# - re (regular expressions)
+# - math (mathematical operations)
+# - random (random number generation)
+#
+# External dependencies for full video rendering:
+# - FFmpeg (external binary, not Python package)
+#   Linux: sudo apt install ffmpeg
+#   macOS: brew install ffmpeg  
+#   Windows: Download from ffmpeg.org and add to PATH
+#
+# - PIL/Pillow (for image processing - included in blackwhite.py requirements)
+#   Install via: pip install Pillow
+#
+# Python version requirement:
+# python>=3.7
+#
+# Installation:
+# pip install Pillow  # For image processing
+# Then run: python crash_faces_studio.py
